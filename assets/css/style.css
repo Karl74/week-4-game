@@ -108,7 +108,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	position: relative;
-	bottom:1245px;
+	bottom:1340px;
 	left: 260px;
 }
 
@@ -117,4 +117,22 @@ body {
 	width: 120px;
 	border-radius: 50%;
 	background-color: #9ac4dc;
+}
+
+.question {
+	padding: 40px 40px 0px 49px;
+	color:darkblue;
+}
+
+.ctrl-label {
+	font-family:'Chewy', cursive;
+	font-size: 16px;
+	padding: 0px 0px 0px 25px;
+	color:darkblue;
+}
+
+.label{
+	font-family:'Chewy', cursive;
+	color:darkblue;
+	font-size: 15px;
 }
