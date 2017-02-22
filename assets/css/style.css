@@ -1,0 +1,120 @@
+body {
+	background-image: url(../images/bubblebg.jpg);
+}
+
+#main-container {
+	width:960px;
+	margin: auto;
+}
+
+
+	#title {
+		font-family: 'Chewy', cursive;
+		color:white;
+}
+#central-bubble {
+	width: 700px;
+	height: 700px;
+	background-image: url(../images/circle502.png);
+	background-repeat: no-repeat;
+	margin:auto;
+}
+
+
+	.score {
+		font-family: 'Chewy', cursive;
+	}
+
+	#box-target {
+		position:relative;
+		top:96px;
+		left:228px;
+		width: 150px;
+		height: 150px;
+		background-color:#6666ff;
+		border-radius: 50%;
+	}
+
+		#target-score {
+			position: relative;
+			top:51px;
+			left:59px;
+		}
+
+
+	#math-box {
+		position:relative;
+		top:69px;
+		left:108px;
+		width: 200px;
+		height: 200px;
+		background-color:#6666ff;
+		border-radius: 50%;
+	}
+
+		#diamond-sum {
+			position: relative;
+			top:40px;
+			left:82px;
+		}
+
+
+#b-yellow {
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	position:relative;
+	top:-702px;
+	left: 129px;
+	background-color:#ffff99;
+}
+
+
+#b-blue {
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	position:relative;
+	top:-702px;
+	left: 63px; 
+	background-color:#66ffff;
+}
+
+
+#b-green {
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	position:relative;
+	top: -689px;
+	left: 56px;
+	background-color:#66ff66;
+}
+
+
+#b-pink {
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	position:relative;
+	top:-690px;
+	left: 121px;
+	background-color: #ff66ff;
+}
+
+#stats {
+	width: 520px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	bottom:1245px;
+	left: 260px;
+}
+
+.control {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: #9ac4dc;
+}
